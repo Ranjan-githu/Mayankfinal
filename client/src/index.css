@@ -1,0 +1,79 @@
+:root {
+  --primary-color: #004d40;
+  /* Teal/Green for professional look */
+  --secondary-color: #ffc107;
+  /* Amber for accents/actions */
+  --text-color: #333;
+  --bg-color: #f4f4f4;
+  --card-bg: #fff;
+  --font-main: 'Inter', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding-top: 80px;
+  /* Space for fixed navbar */
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+/* Navbar Dropdown */
+.nav-links li {
+  position: relative;
+}
+
+.nav-links li:hover>div {
+  display: block !important;
+}
+
+/* Select Input */
+select {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+}
