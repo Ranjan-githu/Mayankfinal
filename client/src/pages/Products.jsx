@@ -27,11 +27,11 @@ const Products = () => {
           console.log("Backend not reachable or error, using mock data");
           // Fallback mock data for demo purposes
           const mockProducts = [
-            { _id: '1', name: 'Castrol Activ 1L', brand: 'Castrol', price: 450, category: 'Bike Oils', image: 'https://m.media-amazon.com/images/I/61k1+g9zJIL._SX522_.jpg' },
-            { _id: '2', name: 'Motul 7100 4T', brand: 'Motul', price: 850, category: 'Bike Oils', image: 'https://m.media-amazon.com/images/I/71w+Z5z+kIL._SX522_.jpg' },
-            { _id: '3', name: 'Shell Helix Ultra', brand: 'Shell', price: 3200, category: 'Car Oils', image: 'https://m.media-amazon.com/images/I/61+yyA4h-0L._SX522_.jpg' },
-            { _id: '4', name: 'MRF Nylogrip', brand: 'MRF', price: 1500, category: 'Tyres', image: 'https://m.media-amazon.com/images/I/71qK1+e-1IL._SX522_.jpg' },
-            { _id: '5', name: 'Chain Lube', brand: 'Motul', price: 200, category: 'Others', image: 'https://m.media-amazon.com/images/I/61-mS+N-nAL._SX522_.jpg' },
+            { _id: '1', name: 'Castrol Activ 1L', brand: 'Castrol', price: 450, category: 'Bike Oils', image: 'https://5.imimg.com/data5/SELLER/Default/2022/3/LQ/XK/JP/7626910/castrol-bike-engine-oil-1000x1000.jpg' },
+            { _id: '2', name: 'Motul 7100 4T', brand: 'Motul', price: 850, category: 'Bike Oils', image: 'https://images-na.ssl-images-amazon.com/images/I/61ZLV9jd8mL._SL1331_.jpg' },
+            { _id: '3', name: 'Shell Helix Ultra', brand: 'Shell', price: 3200, category: 'Car Oils', image: 'https://m.media-amazon.com/images/I/715xl1ueLvL._SL1500_.jpg' },
+            { _id: '4', name: 'MRF Nylogrip', brand: 'MRF', price: 1500, category: 'Tyres', image: 'https://ph-test-11.slatic.net/p/a27d018012cd5b2ef09dffb942c243f4.jpg' },
+            { _id: '5', name: 'Chain Lube', brand: 'Motul', price: 200, category: 'Others', image: 'https://tse3.mm.bing.net/th/id/OIP.NzXEtPz4OPhINYVbB_xNdAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3' },
           ];
           if (categoryFilter) {
             setProducts(mockProducts.filter(p => p.category === categoryFilter));
