@@ -20,7 +20,7 @@ const Contact = () => {
             <FaMapMarkerAlt size={24} style={styles.icon} />
             <div>
               <h4>Visit Us</h4>
-              <p>Near Hospital Chauk, Chitrangi,<br />District Singrauli, Madhya Pradesh – 486882</p>
+              <p>Near Hospital Chauk, Chitrangi,<br />District Singrauli, Madhya Pradesh – 486883</p>
             </div>
           </div>
 
