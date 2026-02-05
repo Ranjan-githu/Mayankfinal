@@ -12,7 +12,7 @@ const Contact = () => {
         <div style={styles.info}>
           <div style={styles.infoCard}>
             <h3>Owner Details</h3>
-            <p style={styles.highlight}>Mayank Gupta</p>
+            <p style={styles.highlight}>Mayank Singh Chandel</p>
             <p>Proprietor</p>
           </div>
 
@@ -28,7 +28,7 @@ const Contact = () => {
             <FaPhone size={24} style={styles.icon} />
             <div>
               <h4>Call Us</h4>
-              <p>+91 98765 43210</p>
+              <p>+91 8726709736</p>
             </div>
           </div>
 
